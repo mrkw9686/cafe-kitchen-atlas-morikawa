@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*
+利用規約・プライバシーポリシーのカラー(指定)
+■背景青：#d4dee0
+■背景白：#fff
+■タイトル茶：#705c5
+■アンダーライン：1pxで実線、カラーは#d4dee0
+*/
+
+/*************************
+ページ共通
+**************************/
+
+
+/*************************
+利用規約
+**************************/
+#tos {
+  background: #d4dee0;
+}
+
+#tos h2,
+#tos .ja-title {
+  color: #705c53;
+}
+
+.tos-content {
+  background-color: #fff;
+  padding: 40px;
+}
+
+.tos-content h4 {
+  border-bottom: solid black 1px;
+}
+
+.tos-content p{
+  padding-bottom: 40px;
+}
+
+.tos-list{
+    padding-bottom: 40px;
+  }
+
+.tos-list li{
+  margin-left: 20px;
+  list-style: disc;
+}
+
+/*************************
+プライバシーポリシー
+**************************/
+
+#privacy {
+  background: #d4dee0;
+}
+
+#privacy h2,
+#privacy .ja-title {
+  color: #705c53;
+}
+
+.privacy-content {
+  background-color: #fff;
+  padding: 40px;
+}
+
+.privacy-content-top{
+text-align: center;
+padding-bottom: 40px;
+}
+
+.privacy-content h4 {
+  border-bottom: solid black 1px;
+}
+
+.privacy-content p {
+  padding-bottom: 40px;
+}
+
+.privacy-list {
+  padding-bottom: 40px;
+}
+
+.privacy-list-category{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.privacy-list-category li{
+  margin-right: 20%;
+  margin-left: 20px;
+  list-style: disc;
+}
+
+.privacy-list li {
+  margin-left: 20px;
+  list-style: disc;
+}
+
+/*************************
+
+以下、スマホ用CSS
+
+**************************/
+@media screen and (max-width:768px) {
+/*以下に適宜コードを追加。*/
+.tos-content {
+    padding: 20px;
+  }
+
+.privacy-content {
+  padding: 20px;
+}
+
+.privacy-list-category {
+  display: block;
+  padding-bottom: 40px;
+}
+
+.privacy-list-category li {
+  margin-left: 20px;
+  list-style: disc;
+}
+
+}
